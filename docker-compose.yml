@@ -1,0 +1,10 @@
+services:
+  bionic:
+    build: .
+    image: bionic-model:${VERSION:-0.2.6}-cuda11.1-cudnn8-ubuntu20.04
+    volumes:
+      - ./data/inputs:/data/inputs
+      - ./data/outputs:/data/outputs
+      - ./data/config:/data/config
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all

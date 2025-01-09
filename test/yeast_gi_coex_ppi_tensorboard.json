@@ -1,10 +1,10 @@
 {
   "net_names": [
-    "bionic/inputs/Costanzo-2016.txt",
-    "bionic/inputs/Hu-2007.txt",
-    "bionic/inputs/Krogan-2006.txt"
+    "/inputs/Costanzo-2016.txt",
+    "/inputs/Hu-2007.txt",
+    "/inputs/Krogan-2006.txt"
   ],
-  "out_name": "bionic/outputs/yeast_gi_coex_ppi",
+  "out_name": "/outputs/yeast_gi_coex_ppi",
   "epochs": 2123,
   "batch_size": 2048,
   "learning_rate": 0.0005830944755717023,
@@ -15,5 +15,9 @@
   },
   "embedding_size": 512,
   "save_model": false,
-  "model_parallel": true
+  "tensorboard": {
+    "training": true,
+    "embedding": true,
+    "comment": "tensorboard_example"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "net_names": [
-    "bionic/inputs/Hein-2015.txt",
-    "bionic/inputs/Huttlin-2015.txt",
-    "bionic/inputs/Huttlin-2017.txt",
-    "bionic/inputs/Rolland-2014.txt"
+    "/inputs/Hein-2015.txt",
+    "/inputs/Huttlin-2015.txt",
+    "/inputs/Huttlin-2017.txt",
+    "/inputs/Rolland-2014.txt"
   ],
-  "out_name": "bionic/outputs/human_ppi",
+  "out_name": "/outputs/human_ppi",
   "epochs": 2123,
   "batch_size": 2048,
   "learning_rate": 0.0005830944755717023,

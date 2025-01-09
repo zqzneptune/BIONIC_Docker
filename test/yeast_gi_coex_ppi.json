@@ -1,0 +1,19 @@
+{
+  "net_names": [
+    "/inputs/Costanzo-2016.txt",
+    "/inputs/Hu-2007.txt",
+    "/inputs/Krogan-2006.txt"
+  ],
+  "out_name": "/outputs/yeast_gi_coex_ppi",
+  "epochs": 2123,
+  "batch_size": 2048,
+  "learning_rate": 0.0005830944755717023,
+  "gat_shapes": {
+    "dimension": 68,
+    "n_heads": 10,
+    "n_layers": 3
+  },
+  "embedding_size": 512,
+  "save_model": false,
+  "model_parallel": true
+}
