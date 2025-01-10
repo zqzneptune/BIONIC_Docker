@@ -68,3 +68,6 @@ docker-compose run bionic bionic /data/config/your_config.json
 ```bash
 ./run-bionic.sh ./test/yeast_gi_coex_ppi.json
 ```
+
+
+*This software contains source code provided by NVIDIA Corporation.*
