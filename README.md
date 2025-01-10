@@ -45,7 +45,7 @@ docker-compose run bionic bionic /data/config/your_config.json
 ```
 
 ### Test Example
-1. HUman PPI Network
+1. Human PPI Network
 
 ```bash
 ./run-bionic.sh ./test/human_ppi.json
