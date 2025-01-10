@@ -14,7 +14,7 @@ Forster DT, Li SC, Yashiroda Y, Yoshimura M, Li Z, Isuhuaylas LA, Itto-Nakama K,
 ### Building the Docker Image
 1. Clone the repository:
 ```bash
-git clone https://github.com/bowang-lab/BIONIC_Docker.git
+git clone https://github.com/zqzneptune/BIONIC_Docker.git
 cd BIONIC_Docker
 ```
 
@@ -44,14 +44,28 @@ Or using docker-compose:
 docker-compose run bionic bionic /data/config/your_config.json
 ```
 
-### Example
-1. Place your network files in `data/inputs/`
-2. Place your configuration file in `data/config/`
-3. Run BIONIC:
-```bash
-./run-bionic.sh data/config/your_config.json
-```
-4. Find your results in `data/outputs/`
+### Test Example
+1. HUman PPI Network
 
-## Installation
+```bash
+./run-bionic.sh ./test/human_ppi.json
+```
+
+2. Yeast GI + Co-expression PPI Network w/ tensorboard
+
+```bash
+./run-bionic.sh ./test/yeast_gi_coex_ppi_tensorboard.json
+```
+
+3. Yeast GI + Co-expression PPI Network semisupervised
+
+```bash
+./run-bionic.sh ./test/yeast_gi_coex_ppi_semisupervised.json
+```
+
+4. Yeast GI + Co-expression PPI Network unsupervised
+
+```bash
+./run-bionic.sh ./test/yeast_gi_coex_ppi.json
+```
 
