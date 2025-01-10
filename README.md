@@ -20,7 +20,7 @@ cd BIONIC_Docker
 
 2. Build the Docker image:
 ```bash
-docker-compose build
+docker compose up
 ```
 
 ### Directory Structure
@@ -68,4 +68,3 @@ docker-compose run bionic bionic /data/config/your_config.json
 ```bash
 ./run-bionic.sh ./test/yeast_gi_coex_ppi.json
 ```
-
